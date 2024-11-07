@@ -13,6 +13,7 @@ console.log(h1);
 
 ///////////////////////////////////////////////////////////
 // Set current year
+
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
@@ -58,6 +59,7 @@ allLinks.forEach(function (link) {
 
 ///////////////////////////////////////////////////////////
 // Sticky navigation
+
 const sectionHeroEl = document.querySelector(".section-hero");
 
 const obs = new IntersectionObserver(
